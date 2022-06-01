@@ -23,7 +23,7 @@ public class TemperatureConversionWithTable2 {
 			System.out.println("Enter the temperature value in Farenheit :");
 			tempInFarenhiet = in.nextDouble();
 			tempInCelsius = (tempInFarenhiet - 32) * 5 / 9;
-			System.out.println("Temperature in Farenhiet is " + tempInCelsius + "°C");
+			System.out.println("Temperature in Celsius is " + tempInCelsius + "°C");
 		} else if (option == 0) {
 			for(tempInCelsius=-20;tempInCelsius<=25;tempInCelsius+=5) {
 				tempInFarenhiet = (tempInCelsius * 9 / 5) + 32;
@@ -32,6 +32,7 @@ public class TemperatureConversionWithTable2 {
 		} else {
 			System.out.println("Invalid Option");
 		}
+		
 		in.close();
 
 	}
