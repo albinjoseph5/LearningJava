@@ -9,7 +9,7 @@ public class PermanentEmployees extends Employee {
 
 	@Override
 	void calculatePay() {
-		biweeklySalary = salary / 24;
+		biweeklySalary = salary / 26;
 
 	}
 }

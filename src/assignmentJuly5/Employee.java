@@ -9,7 +9,6 @@ public class Employee {
 	double biweeklySalary;
 
 	public Employee(String firstName, String lastName, double sinNumber) {
-		super();
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.sinNumber = sinNumber;

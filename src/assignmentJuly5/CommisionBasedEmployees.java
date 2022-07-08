@@ -10,7 +10,7 @@ public class CommisionBasedEmployees extends Employee {
 
 	@Override
 	void calculatePay() {
-		biweeklySalary = salary / 24 + sales * 0.15;
+		biweeklySalary = salary / 26 + sales * 0.15;
 
 	}
 }
